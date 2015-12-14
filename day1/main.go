@@ -16,6 +16,7 @@ func main() {
     check(err)
 
     fmt.Printf("Part 1: %d\n", part1(string(input)))
+    fmt.Printf("Part 2: %d\n", part2(string(input)))
 
     return
 }
